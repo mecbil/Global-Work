@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/shoe1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/shoe1a.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/shoe1b.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/shoe1c.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/shoe1d.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/shoe2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/shoe2a.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/shoe2b.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/shoe2c.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="portrait/photo-1447195047884-0f014b0d9288.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1467003909585-2f8a72700288.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1478145046317-39f10e56b5e9.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1502301103665-0b95cc738daf.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1502998070258-dc1338445ac2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1506084868230-bb9d95c24759.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1525351586624-ca549fbe02df.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1549273963-1791d0656a05.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1551218372-a8789b81b253.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="portrait/photo-1556682851-c4580670113a.jpg" alt=""></div>
+            <div class="swiper-slide"><img
+                    src="portrait/stack-of-pancakes-with-strawberry-fruits-2280545 Photo by Chokniti Khongchum from Pexels.jpg"
+                    alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="landscape/alex-hu-6m_cJSVxUHs-unsplash.jpg" alt=""></div>
+            <div class="swiper-slide"><img
+                    src="landscape/background-black-colors-cookies-239581 Photo by Brigitte Tohm from Pexels.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img src="landscape/charles-koh-71qSwepk8cs-unsplash.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="landscape/photo-1432139555190-58524dae6a55.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="landscape/photo-1456014673271-90b7fddf2eea.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="landscape/photo-1466978913421-dad2ebd01d17.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="landscape/photo-1471253794676-0f039a6aae9d.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="landscape/photo-1481833761820-0509d3217039.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="landscape/photo-1499186024912-c374ac2e9cb2.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
